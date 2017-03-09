@@ -2,6 +2,8 @@
 #include <ros/ros.h>
 #include <tf/transform_datatypes.h>
 #include <geometry_msgs/PoseStamped.h>
+#include "simple_ros_package/simple_node.hpp"
+
 
 int main(int argc, char **argv) {
     // Initialize node and publisher.
