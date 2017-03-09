@@ -7,7 +7,7 @@
 
 int main(int argc, char **argv) {
     // Initialize node and publisher.
-    ros::init(argc, argv, "noraml_node_template");
+    ros::init(argc, argv, "simple_node_template");
     ros::NodeHandle nh("~");
     ros::Publisher publisher =
             nh.advertise<geometry_msgs::PoseStamped>("pose_publisher", 1, true);
