@@ -34,6 +34,7 @@ int main(int argc, char **argv) {
                           pose_msg.header.stamp.toSec());
 
         // Wait for next cycle.
+        ros::spinOnce();
         rate.sleep();
     }
 
